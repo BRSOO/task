@@ -1,0 +1,92 @@
+.store-name a,h1{
+	list-style-type:none;
+	text-decoration:none;
+	color:black;
+	padding:0px;
+	margin:0px;
+}
+.navbar{
+	margin-top:0px;
+	margin-bottom:10px;
+	background-color:#ececfb;
+}
+.navbar a{
+	list-style-type:none;
+	text-decoration:none;
+	color:black;
+	padding:5px;
+	margin:5px;
+}
+
+.nav-container{
+	display:flex;
+	justify-content:space-between;
+	font-size:30px;
+}
+.left-align{
+	display:flex;
+	align-items:center;
+}
+
+.left-align h2{
+	margin:0px;
+}
+
+.center-align a{
+	margin-right:15px;
+}
+
+.center-align{
+	padding-top:10px;
+	padding-bottom:5px;
+}
+
+.right-align button{
+	font-family:'Times New Roman';
+	margin:2px;
+	padding:5px;
+	border:none;
+	font-size:30px;
+	background-color:transparent;
+}
+
+.center-align a:hover,
+.right-align button:hover{
+	border-radius:25px;
+	background-color:#d1d1d1;
+}
+
+.body{
+	margin:-8px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:#f0f0e1;
+	gap:20px;
+}
+.content a{
+	text-decoration:none;
+	color:black;
+	padding:10px;
+	border-radius:20px;
+	background-color:#d1d1d1;
+}
+.content a:hover{
+	background-color:#7373ff;
+}
+
+.services .serv-items{
+	 display: flex;
+}
+.contact-box{
+	display: flex;
+  flex-direction: column;
+}
+
+.about-us{
+	text-align:center; 
+}
+footer{
+	text-align:center;
+	padding:15px;
+}
